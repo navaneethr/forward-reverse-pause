@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Raleway", Arial, Helvetica, sans-serif
+        }
+
+        .myLink {
+            display: none
+        }
+
+        div {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .w3-card-4{
+            width: 60%;
+            margin-top: 100px;
+            margin-left: 20%;
+        }
+
+        .w3-btn {
+            margin: 20px;
+        }
+
+        .w3-input {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="w3-card-4">
+        <div class="w3-container">
+            <input id="startBox" class="w3-input" type="text">
+            <input id="endBox" class="w3-input" type="text">
+            <input id="forward" class="w3-btn w3-blue" type="button" onclick="forward()" value="forward">
+            <input id="pause" class="w3-btn w3-blue" type="button" value="pause" onclick="pause()">
+            <input id="reverse" class="w3-btn w3-blue" type="button" value="reverse" onclick="reverse()">
+            <label id="desc">
+        <script src="forrevpau.js"></script>
+        </div>
+    </div>
+    </body>
+</html>
